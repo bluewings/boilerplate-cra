@@ -74,6 +74,8 @@ module.exports = (paths) => {
 
     // path in webpack.config
     'module.rules...oneOf': {
+      // Apply transform-commonjs-es2015-modules to js files.
+      // https://www.npmjs.com/package/babel-plugin-transform-commonjs-es2015-modules
       $aggregate: [{
         $match(rule) {
           const { include, test = {} } = rule;
@@ -87,7 +89,6 @@ module.exports = (paths) => {
         },
       }],
 
-      // operation: $unshift | $push | $set
       $unshift: [
         // Process pug as jsx.
         {
@@ -122,6 +123,16 @@ module.exports = (paths) => {
             postcssLoader,
             sassLoader,
             sassVarsLoader,
+          ],
+        },
+
+        // Process yaml files.
+        {
+          test: /\.(yml|yaml)$/,
+          exclude: /node_modules/,
+          use: [
+            require.resolve('json-loader'),
+            require.resolve('yaml-loader'),
           ],
         },
       ],

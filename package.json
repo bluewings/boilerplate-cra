@@ -27,9 +27,11 @@
     "babel-loader": "^8.0.4",
     "babel-plugin-transform-commonjs-es2015-modules": "^4.0.1",
     "cra-rewired": "^1.0.12",
+    "json-loader": "^0.5.7",
     "node-sass": "^4.9.4",
     "pug-as-jsx-loader": "^1.0.59",
-    "react-scripts": "2.0.4"
+    "react-scripts": "2.0.4",
+    "yaml-loader": "^0.5.0"
   },
   "scripts": {
     "start": "cra-rewired -s react-scripts -m start -c config/webpack.custom.dev.js",
