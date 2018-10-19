@@ -1,0 +1,19 @@
+// @import .scss => styles
+Modal(__jsx='{...this.props}')
+  div(ref='{bodyEl => this.bodyEl = bodyEl}',
+    //- style='{{ padding: padding, minHeight: minHeight, maxHeight: maxHeight, border: "5px solid red" }}',
+    className='{styles["body-wrap"]}')
+    //- | children
+    //- pre {JSON.stringify(this.state)}
+    | {children}
+
+//- div
+  Modal(show='{show}', bsSize='{size}', className='{styles.root}')
+    .modal-header
+      Header
+    .modal-body(ref='{bodyEl => this.bodyEl = bodyEl}',
+      style='{{ padding: padding, minHeight: minHeight, maxHeight: maxHeight }}',
+      className='{styles["body-wrap"]}')
+      | {children}
+    .modal-footer
+      Footer

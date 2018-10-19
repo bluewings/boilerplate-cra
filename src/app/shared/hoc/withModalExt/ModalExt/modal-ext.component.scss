@@ -1,0 +1,59 @@
+.root {
+    display: block;
+     :global(.modal-dialog) {
+        margin-bottom: 0;
+         :global(.modal-header) {
+             :global(.fa) {
+                &:first-child {
+                    margin-right: 8px;
+                }
+            }
+        }
+         :global(.modal-body) {
+            padding: 0;
+        }
+         :global(.modal-footer) {
+            text-align: center;
+            display: block;
+             :global(.btn) {
+                min-width: 100px;
+                margin-right: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}
+
+.body-wrap {
+    overflow-y: auto;
+    :global(.modal-footer) {
+        // text-align: center;
+        display: block;
+        :global(.btn) {
+            min-width: 80px;
+            margin-right: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          :global(.pull-right) {
+            :global(.btn) {
+            //   min-width: 80px;
+              margin-left: 10px;
+              margin-right: 0;
+            }
+          }
+        //  :global(.btn) {
+        //     min-width: 100px;
+        //     margin-right: 5px;
+        //     padding-left: 15px;
+        //     padding-right: 15px;
+        //     &:last-child {
+        //         margin-right: 0px;
+        //     }
+        // }
+    }
+}

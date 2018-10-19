@@ -1,0 +1,11 @@
+.root {
+  display: block;
+}
+
+$background-color: #efefef;
+
+:export {
+  primary: $background-color;
+  /* this long names will be mapped to imports by your loader */
+  // secondary: __value__secondary__1
+}

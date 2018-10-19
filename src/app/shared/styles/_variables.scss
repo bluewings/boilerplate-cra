@@ -1,0 +1,221 @@
+// // @import 'material-design-colors';
+// // line green color
+// $green: #00b900;
+
+// // __red, __pink, __purple, __deep_purple, __indigo,
+// // __blue, __light_blue, __cyan, __teal, __green,
+// // __light_green, __lime, __yellow, __amber, __orange,
+// // __deep_orange, __brown, __gray, __blue_gray
+// $_gray: $__blue_gray;
+
+// $color-primary: $__blue_gray;
+
+// $_secondary: $__blue_gray;
+
+// $_danger: $__red;
+
+// $white: #fff;
+// $black: #000;
+
+// $primary: $color-primary;
+
+// $gray-50: map-get($_gray, '50');
+// $gray-100: map-get($_gray, '100');
+// $gray-200: map-get($_gray, '200');
+// $gray-300: map-get($_gray, '300');
+// $gray-400: map-get($_gray, '400');
+// $gray-500: map-get($_gray, '500');
+// $gray-600: map-get($_gray, '600');
+// $gray-700: map-get($_gray, '700');
+// $gray-800: map-get($_gray, '800');
+// $gray-900: map-get($_gray, '900');
+
+$primary-50: map-get($color-primary, '50');
+$primary-100: map-get($color-primary, '100');
+$primary-200: map-get($color-primary, '200');
+$primary-300: map-get($color-primary, '300');
+$primary-400: map-get($color-primary, '400');
+$primary-500: map-get($color-primary, '500');
+$primary-600: map-get($color-primary, '600');
+$primary-700: map-get($color-primary, '700');
+$primary-800: map-get($color-primary, '800');
+$primary-900: map-get($color-primary, '900');
+
+// // $primary-50: map-get($colorprimary, 50);
+// // $primary-100: map-get($colorprimary, 100);
+// // $primary-200: map-get($colorprimary, 200);
+// // $primary-300: map-get($colorprimary, 300);
+// // $primary-400: map-get($colorprimary, 400);
+// // $primary-500: map-get($colorprimary, 500);
+// // $primary-600: map-get($colorprimary, 600);
+// // $primary-700: map-get($colorprimary, 700);
+// // $primary-800: map-get($colorprimary, 800);
+// // $primary-900: map-get($colorprimary, 900);
+
+// $secondary-50: map-get($_secondary, '50');
+// $secondary-100: map-get($_secondary, '100');
+// $secondary-200: map-get($_secondary, '200');
+// $secondary-300: map-get($_secondary, '300');
+// $secondary-400: map-get($_secondary, '400');
+// $secondary-500: map-get($_secondary, '500');
+// $secondary-600: map-get($_secondary, '600');
+// $secondary-700: map-get($_secondary, '700');
+// $secondary-800: map-get($_secondary, '800');
+// $secondary-900: map-get($_secondary, '900');
+
+// $danger-50: map-get($_danger, '50');
+// $danger-100: map-get($_danger, '100');
+// $danger-200: map-get($_danger, '200');
+// $danger-300: map-get($_danger, '300');
+// $danger-400: map-get($_danger, '400');
+// $danger-500: map-get($_danger, '500');
+// $danger-600: map-get($_danger, '600');
+// $danger-700: map-get($_danger, '700');
+// $danger-800: map-get($_danger, '800');
+// $danger-900: map-get($_danger, '900');
+
+// $primary: $primary-600;
+
+// $body-color:$primary-900;
+// // $body-color: map-get($color-red, 500);
+
+// $_border_color: $gray-600;
+
+
+
+
+// // $theme-color-interval: 8% !default;
+// // $body-color: $gray-900 !default;
+// // $link-color: theme-color("primary") !default;
+// // $link-hover-color: darken($link-color, 15%) !default;
+// $border-color: $_border_color;
+// // $component-active-color: $white !default;
+// // $component-active-bg: theme-color("primary") !default;
+// // $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+// // $headings-color: inherit !default;
+// // $blockquote-small-color: $gray-600 !default;
+// // $hr-border-color: rgba($black, .1) !default;
+// $table-border-color: $_border_color;
+// // $table-head-color: $gray-700 !default;
+// // $table-dark-border-color: lighten($gray-900, 7.5%) !default;
+// // $table-dark-color: $body-bg !default;
+// // $table-caption-color: $text-muted !default;
+// // $input-btn-focus-color: rgba($component-active-bg, .25) !default;
+// // $input-btn-focus-box-shadow: 0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+// // $btn-link-disabled-color: $gray-600 !default;
+// // $btn-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+// // $input-color: $gray-700 !default;
+// $input-border-color: $_border_color;
+// // $input-focus-border-color: lighten($component-active-bg, 25%) !default;
+// // $input-focus-color: $input-color !default;
+// // $input-placeholder-color: $gray-600 !default;
+// // $input-plaintext-color: $body-color !default;
+// // $input-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+// // $input-group-addon-color: $input-color !default;
+// // $input-group-addon-border-color: $input-border-color !default;
+// // $custom-control-label-disabled-color: $gray-600 !default;
+// // $custom-control-indicator-checked-color: $component-active-color !default;
+// // $custom-control-indicator-checked-disabled-bg: rgba(theme-color("primary"), .5) !default;
+// // $custom-control-indicator-active-color: $component-active-color !default;
+// // $custom-checkbox-indicator-icon-checked: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='#{$custom-control-indicator-checked-color}' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E"), "#", "%23") !default;
+// // $custom-checkbox-indicator-indeterminate-color: $custom-control-indicator-checked-color !default;
+// // $custom-checkbox-indicator-icon-indeterminate: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='#{$custom-checkbox-indicator-indeterminate-color}' d='M0 2h4'/%3E%3C/svg%3E"), "#", "%23") !default;
+// // $custom-radio-indicator-icon-checked: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='#{$custom-control-indicator-checked-color}'/%3E%3C/svg%3E"), "#", "%23") !default;
+// // $custom-select-color: $input-color !default;
+// // $custom-select-disabled-color: $gray-600 !default;
+// // $custom-select-indicator-color: $gray-800 !default;
+// // $custom-select-indicator: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='#{$custom-select-indicator-color}' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E"), "#", "%23") !default;
+// // $custom-select-border-color: $input-border-color !default;
+// // $custom-select-focus-border-color: $input-focus-border-color !default;
+// // $custom-select-focus-box-shadow: inset 0 1px 2px rgba($black, .075), 0 0 5px rgba($custom-select-focus-border-color, .5) !default;
+// // $custom-file-focus-border-color: $input-focus-border-color !default;
+// // $custom-file-color: $input-color !default;
+// // $custom-file-border-color: $input-border-color !default;
+// // $custom-file-button-color: $custom-file-color !default;
+// // $form-feedback-valid-color: theme-color("success") !default;
+// // $form-feedback-invalid-color: theme-color("danger") !default;
+// $dropdown-border-color: rgba($black, .15) !default;
+// // $dropdown-link-color: $gray-900 !default;
+// // $dropdown-link-hover-color: darken($gray-900, 5%) !default;
+// // $dropdown-link-active-color: $component-active-color !default;
+// // $dropdown-link-disabled-color: $gray-600 !default;
+// // $dropdown-header-color: $gray-600 !default;
+// // $nav-link-disabled-color: $gray-600 !default;
+// $nav-tabs-border-color:  $primary-200;
+// // $nav-tabs-link-hover-border-color: $gray-200 $gray-200 $nav-tabs-border-color !default;
+// // $nav-tabs-link-active-color: $primary-700;
+// // $nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg !default;
+// // $nav-pills-link-active-color: $component-active-color !default;
+// // $nav-divider-color: $gray-200 !default;
+// // $navbar-dark-color: rgba($white, .5) !default;
+// // $navbar-dark-hover-color: rgba($white, .75) !default;
+// // $navbar-dark-active-color: $white !default;
+// // $navbar-dark-disabled-color: rgba($white, .25) !default;
+// // $navbar-dark-toggler-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-dark-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
+// // $navbar-dark-toggler-border-color: rgba($white, .1) !default;
+// // $navbar-light-color: rgba($black, .5) !default;
+// // $navbar-light-hover-color: rgba($black, .7) !default;
+// // $navbar-light-active-color: rgba($black, .9) !default;
+// // $navbar-light-disabled-color: rgba($black, .3) !default;
+// // $navbar-light-toggler-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
+// // $navbar-light-toggler-border-color: rgba($black, .1) !default;
+// // $pagination-color: $link-color !default;
+// // $pagination-border-color: $gray-300 !default;
+// // $pagination-hover-color: $link-hover-color !default;
+// // $pagination-hover-border-color: $gray-300 !default;
+// // $pagination-active-color: $component-active-color !default;
+// // $pagination-active-border-color: $pagination-active-bg !default;
+// // $pagination-disabled-color: $gray-600 !default;
+// // $pagination-disabled-border-color: $gray-300 !default;
+// $card-border-color: $primary-200;
+// // $tooltip-color: $white !default;
+// // $tooltip-arrow-color: $tooltip-bg !default;
+// // $popover-border-color: rgba($black, .2) !default;
+// // $popover-header-color: $headings-color !default;
+// // $popover-body-color: $body-color !default;
+// // $popover-arrow-color: $popover-bg !default;
+// // $popover-arrow-outer-color: fade-in($popover-border-color, .05) !default;
+// // $modal-content-border-color: rgba($black, .2) !default;
+// // $modal-header-border-color: $gray-200 !default;
+// // $modal-footer-border-color: $modal-header-border-color !default;
+// // $alert-color-level: 6 !default;
+// // $progress-bar-color: $white !default;
+// // $progress-bar-bg: theme-color("primary") !default;
+// // $list-group-border-color: rgba($black, .125) !default;
+// // $list-group-active-color: $component-active-color !default;
+// // $list-group-active-border-color: $list-group-active-bg !default;
+// // $list-group-disabled-color: $gray-600 !default;
+// // $list-group-action-color: $gray-700 !default;
+// // $list-group-action-hover-color: $list-group-action-color !default;
+// // $list-group-action-active-color: $body-color !default;
+// // $thumbnail-border-color: $gray-300 !default;
+// // $figure-caption-color: $gray-600 !default;
+// // $breadcrumb-divider-color: $gray-600 !default;
+// // $breadcrumb-active-color: $gray-600 !default;
+// // $carousel-control-color: $white !default;
+// // $carousel-caption-color: $white !default;
+// // $carousel-control-prev-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#{$carousel-control-color}' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"), "#", "%23") !default;
+// // $carousel-control-next-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#{$carousel-control-color}' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"), "#", "%23") !default;
+// // $close-color: $black !default;
+// // $code-color: $pink !default;
+// // $kbd-color: $white !default;
+// // $pre-color: $gray-900 !default;￸
+
+// // :export {
+// //   primary_50:
+// //   // $primary-50: map-get($color-primary, '50');
+// //   // $primary-100: map-get($color-primary, '100');
+// //   // $primary-200: map-get($color-primary, '200');
+// //   // $primary-300: map-get($color-primary, '300');
+// //   // $primary-400: map-get($color-primary, '400');
+// //   // $primary-500: map-get($color-primary, '500');
+// //   // $primary-600: map-get($color-primary, '600');
+// //   // $primary-700: map-get($color-primary, '700');
+// //   // $primary-800: map-get($color-primary, '800');
+// //   // $primary-900: map-get($color-primary, '900');
+// //   // secondary2: $_secondary;
+
+
+// //   /* this long names will be mapped to imports by your loader */
+// //   // secondary: __value__secondary__1
+// // }

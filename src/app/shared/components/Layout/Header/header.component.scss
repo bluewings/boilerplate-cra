@@ -1,0 +1,10 @@
+@import "../../../../shared/styles/variables.scss";
+.spacer {
+  height: 56px;
+}
+
+.root {
+  display: block;
+  position: relative;
+  z-index:10;
+}

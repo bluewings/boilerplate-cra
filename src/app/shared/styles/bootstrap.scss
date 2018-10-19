@@ -1,0 +1,72 @@
+
+
+// $_gray: $__blue_gray;
+
+// $_primary: $__blue_gray;
+
+// $_secondary: $__blue_gray;
+
+// $_danger: $__red;
+
+// $primary: $primary-600;
+
+// $body-color:$primary-900;
+
+// $_border_color: $gray-600;
+
+// $border-color: $_border_color;
+
+// $table-border-color: $_border_color;
+
+// $input-border-color: $_border_color;
+
+// $dropdown-border-color: rgba($black, .15) !default;
+
+// $nav-tabs-border-color:  $primary-200;
+
+// $card-border-color: $primary-200;
+
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './misc/mixins';
+#root,
+.modal .modal-dialog .modal-content {
+  // .btn-outline-secondary {
+  //   @include button-outline-variant2($primary-600, $primary-300);
+  // }
+  h5.modal-title {
+    font-size: 1rem;
+  }
+  .dropdown {
+    .dropdown-header {
+      font-size: 12px;
+      opacity: .75;
+    }
+  }
+}
+
+#root {
+  .input-group {
+    >.input-group-prepend {
+      >.input-group-text {
+        background: transparent;
+      }
+    }
+    &.input-group-plaintext {
+      >.input-group-prepend {
+        >.input-group-text {
+          padding-left: 0;
+          background: transparent;
+          border-color: transparent;
+        }
+        &:after {
+          content: ':';
+          padding: 5px 0;
+        }
+      }
+      >.form-control {
+        background: transparent;
+        border: 0;
+      }
+    }
+  }
+}

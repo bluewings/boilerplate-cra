@@ -1,0 +1,12 @@
+// @import .scss => styles
+Fragment
+  div(@if='fixed === "fixed-top"', className='{styles.spacer}')
+  nav.navbar.navbar-expand-md.navbar-dark.bg-dark(className='{cx(styles.root, fixed)}')
+    .container
+      a.navbar-brand(href='#') Navbar
+      .collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item
+            Link.nav-link(to='/') Home
+          li.nav-item
+            Link.nav-link(to='/about') About

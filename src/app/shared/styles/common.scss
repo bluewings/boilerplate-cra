@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'fonts/noto-sans';
+@import 'misc/page-transition';
+// @import 'bootstrap/bootstrap';
+
+html,
+body {
+  height: 100%;
+  // color: $test;
+  // color: map-get($color-red, 500) !important;
+  // color: $red__;
+}
+
+body {
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}

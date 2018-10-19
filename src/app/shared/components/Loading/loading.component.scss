@@ -1,0 +1,13 @@
+@import '../../../shared/styles/variables.scss';
+.root {
+  text-align: center;
+  padding: 60px;
+  :global(.cp-round) {
+    &:before {
+      border-color: $primary-100;
+    }
+    &:after {
+      border-top-color: $primary-600;
+    }
+  }
+}
